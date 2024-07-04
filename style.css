@@ -1,0 +1,38 @@
+body{
+    background-color: #09083d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#path {
+    width: 80vw;
+    height: 80vh;
+    border: 1px black;
+    overflow: auto;
+}
+
+#svg {
+    transform-origin: center;
+}
+
+.button {
+    background-color: #04aa04;
+    border: none;
+    border-radius: 10px;
+    padding: 35px 52px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.textbox{
+    float: right;
+    border-radius: 10px;
+    width: 100px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
