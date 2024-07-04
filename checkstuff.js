@@ -2,7 +2,7 @@ window.addEventListener('visibilitychange', ()=>{
     if(document.visibilityState === "visible")
         document.title = "ElectionMap";
     else if(document.visibilityState === "hidden")
-        document.title = ":(";
+        document.title = ">:(";
         window.alert("Where you go");
 })
 
