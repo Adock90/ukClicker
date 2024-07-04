@@ -3,10 +3,10 @@ The site will gather this data just for user purposes and nothing else
 the user will give permission 
 this is for educational purposes only and it is not sent to a server */
 
-const x = document.getElementById("loc");
+/const x = document.getElementById("loc");
 
 
-function Getloc() {
+/*function Getloc() {
     if (navigator.geolocation){
         navigator.geolocation.getCurrentPosition(showPosition);
     } else{
@@ -14,7 +14,7 @@ function Getloc() {
     }
 }
 
-function showPosition(position){
+/*function showPosition(position){
     window.open("https://www.google.com/maps/?q="+position.coords.latitude+" "+position.coords.longitude);
       
 }
